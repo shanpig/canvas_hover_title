@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    h1 {
+      text-align: center;
+    }
+
+    canvas {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border: 1px solid black;
+    }
+
+    #name {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Hover and move your mouse !</h1>
+  <canvas width="600" height="600" id="canvas">
+    Your browser does not support canvas :(
+  </canvas>
+  <canvas width="505" height="68" id="name"></canvas>
+  <script src="./javascript.js"></script>
+</body>
+
+</html>
